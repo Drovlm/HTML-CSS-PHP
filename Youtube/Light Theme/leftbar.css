@@ -1,0 +1,134 @@
+.LeftBar{
+    background-color: rgb(255, 255, 255);
+    width: 64px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:55px;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.Home{
+    position: absolute;
+    width: 64px;
+    height: 74px;
+    justify-content:center;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.Home:hover{
+    background-color: rgb(235, 235, 235);
+}
+.Home:active{
+    background-color: rgb(218, 218, 218);
+      
+}
+
+.ShVideo{
+    top: 72px;
+    position: absolute;
+    width: 64px;
+    height: 74px;
+    justify-content:center;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.ShVideo:hover{
+    background-color: rgb(235, 235, 235);
+}
+.ShVideo:active{
+    background-color: rgb(218, 218, 218);
+      
+}
+
+
+.Library{
+    top: 145px;
+    position: absolute;
+    width: 64px;
+    height: 74px;
+    justify-content:center;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.Library:hover{
+    background-color: rgb(235, 235, 235);
+}
+.Library:active{
+    background-color: rgb(218, 218, 218);
+      
+}
+
+.Clips{
+    top: 218px;
+    position: absolute;
+    width: 64px;
+    height: 74px;
+    justify-content:center;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.Clips:hover{
+    background-color: rgb(235, 235, 235);
+}
+.Clips:active{
+    background-color: rgb(218, 218, 218);  
+}
+
+.Later{
+    top: 290px;
+    position: absolute;
+    width: 64px;
+    height: 74px;
+    justify-content:center;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.Later:hover{
+    background-color: rgb(235, 235, 235);
+}
+.Later:active{
+    background-color: rgb(218, 218, 218);  
+}
+
+.History{
+    top: 365px;
+    position: absolute;
+    width: 64px;
+    height: 74px;
+    justify-content:center;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.History:hover{
+    background-color: rgb(235, 235, 235);
+}
+.History:active{
+    background-color: rgb(218, 218, 218);  
+}
