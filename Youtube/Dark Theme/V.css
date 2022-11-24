@@ -1,0 +1,100 @@
+    .E{
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .E:active{
+        background-color: rgb(59, 59, 59);
+        border-radius: 5px;
+    }
+    
+    .video{
+        width: 100%;
+    }
+   
+    .thum{
+        position: relative;
+    }
+    .image{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .VidTime{
+        font-family: Roboto, Arial;
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 4px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 7px;
+        right: 3px;
+    }
+    
+    .T{
+        color: white;
+        margin-left: 10px;
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 10px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+
+    .Page{
+        object-fit: contain;
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 14px;
+        color: rgb(153, 153, 153);
+        margin-bottom: 4px;
+        transition: color 0.1s;
+    }
+    
+    .Page:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    .info{
+        margin-left: 10px;
+        font-size: 14px;
+        color: rgb(153, 153, 153);
+    }
+
+    .VidB{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 12px;
+        row-gap: 10px;
+        margin: 10px;
+        padding-left: 70px;
+    }
+
+
+    .row{
+        margin-top: 2px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        }
+        
+    .Img{
+        vertical-align: top;
+        margin-right: 5px;
+    }
+    Img{
+        margin-top: 10px;
+        border-radius: 50px;
+    }
+
+    .I{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        display: block;
+    }
