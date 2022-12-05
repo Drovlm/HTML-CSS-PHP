@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+background-color: dimgray;
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2px 80px;
+}
+
+.logo{
+text-decoration: none;
+color: dodgerblue;
+font-weight: 700;
+font-size: 2.0em;
+}
+.background{
+background: url(Logo/separator-kt-Kannada-Logo-Color.png) no-repeat;
+background-size: 150%;
+
+}
+
+.navigation {
+    font-size: 1.2em;
+    font-weight: 500;
+   
+}
+
+.navigation a{
+    text-decoration: none;
+padding-left: 30px;
+color: rgb(255, 255, 255);
+transition: 0.3s ease;
+}
+
+.navigation :hover{
+    color: goldenrod;
+    transform: scale(1.1);
+}
+
+.wrapper {
+position: relative;
+background-size: cover;
+background-position: center;
+}
+
+
+.video {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.video__item {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    padding: 240px ;  
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    display: flex;
+}
+
+.main {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+display: flex;
+align-items: center;
+}
+
+.main h2{
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-table;
+    margin-top: 20px;
+color: dodgerblue;
+font-size: 1.6em;
+font-weight: 600;
+}
+
+.main h3{
+    display: inline-table 10px;
+    color: goldenrod;
+    font-size: 1.4em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+.main-btn{
+color: aliceblue;
+background-color: rgb(28, 123, 218) ;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 600;
+display: inline-table;
+padding: 0.9em 1.5em;
+letter-spacing: 1px;
+border-radius: 18px;
+margin-bottom: 20px;
+transition: 0.4s ease;
+}
+
+.main-btn:hover{
+background-color: rgb(30, 133, 236);
+transform: scale(1.1);
+}
+
+.social-icons {
+    padding: 10px 0px;
+    }
+
+.social-icons a{
+    color: aliceblue;
+    font-size: 2.2em;
+    padding-right: 30px;
+    display: inline-table;
+}
+.fa-github{
+    color: aliceblue;
+    font-size: 1.1em;
+    display: inline-table;
+    transition: 0.3s ease;
+}
+.fa-github:hover{
+    transform: scale(1.1);
+}
+.fa-facebook{
+    color: aliceblue;
+    font-size: 1.1em;
+    display: inline-table;
+    transition: 0.3s ease;
+}
+.fa-facebook:hover{
+    transform: scale(1.1);
+}
+.fa-instagram{
+    color: aliceblue;
+    font-size: 1.1em;
+    display: inline-table;
+    transition: 0.3s ease;
+}
+.fa-instagram:hover{
+    transform: scale(1.1);
+}
+
+.title {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    color: goldenrod;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.content {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.card {
+    width: 100%;
+    position: relative; 
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.info{
+    width: 100%;
+    position: relative;
+}
+
+.info h3{
+color: dodgerblue ;
+font-size: 2.0em;
+font-weight: 700;
+margin: 10px;
+}
+
+.info P{
+    font-size: 1.2em;
+}
+
+.titleW {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    display: flex;
+     color: goldenrod;
+     text-align: center;
+     font-size: 2.7em;
+     font-weight: 500;
+     margin-bottom: 50px; 
+ }
+ 
+ .steps {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    display: flex;
+     text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+     color:  dodgerblue;
+     font-size: 2.5em;
+ font-weight: 500;
+ margin-bottom: 20px;
+ }
+
+.steps h3{
+    margin-left: 35px; 
+}
+
+ .stepsW {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+     text-align: center;
+     color:  dodgerblue;
+     font-size: 1.5em;
+ font-weight: 500;
+ margin-bottom: 150px;
+ }
+ .stepsW a{
+    margin-left: 45px;
+ }
+
+ 
+.footer {
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 100px;
+}
+.footer h2{
+    margin-left: -970px;
+    color: goldenrod ;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.footer2 {
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 65px;
+}
+
+.footer2 h3 {
+    margin-left: 50px;
+    color: black;
+font-size: 1.6em;
+font-weight: 500;
+}
+
+.Icons a{
+    margin-bottom: 20px;
+    justify-content: right;
+    color: aliceblue;
+    font-size: 1.8em;
+    padding-right: 20px;
+
+}
+.ftitle {
+    margin-bottom: 2px;
+    margin-left: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+.ftitle span{
+    color: dodgerblue;
+font-weight: 500;
+}
+
+
+
+.footer3 {
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 65px;
+}
+.footer3 h4{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+@media (max-width: 1085px){
+   header{
+       padding: 1px 12px;
+   } 
+
+   .navigation a{
+       padding-left: 10px;
+   }
+   
+   .logo{
+        font-size: 1.8em;
+   }
+
+    .main {
+        width: 100%;
+        padding-left: 30px;
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main h2{
+    color: aliceblue;
+    font-size: 1.9em;
+    font-weight: 200;  
+    }
+
+    .main h2 span {
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-top: 10px;
+    }
+
+    .main h3{
+        font-size: 1.4em;
+        font-weight: 300;
+        margin-top: -2px;
+        margin-bottom: 10px;
+    }
+
+    .main-btn {
+        border-radius: 20px;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    
+    .social-icons {
+        font-size: 1.9em;
+        }
+    
+    .social-icons a{
+        font-size: 1.3em;
+        padding-right: 25px;
+    }
+
+    .title {
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 1.5;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+        
+    .video__item{
+        height: 750px;
+    }
+
+    .steps {
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+
+    .steps h3{
+        margin-left: 25px; 
+    }
+        
+    .stepsW {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    .stepsW a{
+        margin-left: 25px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info h3{
+        color: dodgerblue ;
+        font-size: 2.4em;
+        font-weight: 00;
+        margin: 10px;
+    }
+        
+    .info P{
+        font-size: 1.7em;
+    }
+
+  
+    .footer {
+        padding: 0px 10px;
+    }
+
+    .footer h2{
+        margin-left: -160px;
+        color: goldenrod ;
+        font-size: 1.8em;
+        font-weight: 420;
+    }
+        
+    .Icons{
+        font-size: 0.9em;
+    }
+
+    .footer2 {
+        padding: 0px 20px;
+    }
+        
+    .footer2 h3 {
+        margin-left: 5px;
+        font-size: 1.0em;
+        font-weight: 500;
+    }
+        
+    .Icons a{
+        margin-bottom: 5px;
+        justify-content: right;
+        font-size: 1.8em;
+        padding-right: 20px;
+        
+    }
+        
+    .ftitle {
+        font-size: 0.9em;
+        margin-top: 2px;
+        margin-left: 10px;
+        color: #fff;
+        font-weight: 500;
+    }
+    .ftitle span{
+        color: dodgerblue;
+        font-weight: 500;
+    }
+        
+    .footer3 h4{
+        margin-left: -40px;
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+       
+
+}
