@@ -1,0 +1,60 @@
+.Back{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.bg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: .25s;
+    pointer-events: none;
+  }
+
+.R{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    width: 100px;
+    cursor: pointer;
+}
+
+.R:hover ~ .bg{
+    background-color: rgb(255, 141, 141);
+}
+
+.B{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    width: 100px;
+    cursor: pointer;
+}
+
+.B:hover ~ .bg{
+    background-color: rgb(193, 226, 255);
+}
+
+.G{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: green;
+    width: 100px;
+    cursor: pointer;
+}
+
+.G:hover ~ .bg{
+    background-color: rgb(151, 255, 151);
+}
