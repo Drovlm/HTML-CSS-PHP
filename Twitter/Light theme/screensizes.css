@@ -1,0 +1,758 @@
+@media (max-width:1030px){
+    .LeftBar{
+        width: 120px;
+    }
+
+    .LB{
+       margin-left: 28px;
+        width:100px ;
+    }
+
+    .Logo{
+        font-size: 25px;
+        margin-left: 13px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .HH{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Home{
+        margin-left: 10px;
+    }
+
+    .H{
+        display: none;
+    }
+
+    .EE{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Exp{
+        margin-left: 10px;
+    }
+
+    .Ex{
+        display: none;
+    }
+
+    .NN{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Noti{
+        margin-left: 12px;
+    }  
+
+    .N{
+        display: none;
+    }
+
+    .MM{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Messages{
+        margin-left: 10px;
+    }  
+
+    .Mass{
+        display: none;
+    }
+
+    .BB{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Bookmarks{
+        margin-left: 13px;
+    }  
+
+    .Book{
+        display: none;
+    }
+
+    
+    .LL{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Lists{
+        margin-left: 10px;
+    }  
+
+    .List{
+        display: none;
+    }
+
+    .PP{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Profile{
+        margin-left: 12px;
+    }  
+
+    .Prof{
+        display: none; 
+    }
+
+    .mm{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .More{
+        margin-left: 12px;
+    }  
+
+    .more{
+        display: none;
+    }
+
+    .Tweet{
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: rgb(54, 158, 255);
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+        width: 70px;
+        height: 40px;
+        border-radius: 60px;
+        transition: 0.2s;
+    }
+
+    .Info{
+        margin-top: 180px;
+        margin-left: 5px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .Name{
+        display: none;
+    }
+
+    .image{
+        object-fit: cover;
+        display: block;
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-top: 9px;
+    }   
+
+    .Content{
+        left: 140px;
+    }
+
+    .RightBar{
+        display: none;
+    }
+}
+
+
+@media (min-width:1031px) and (max-width:1200px){
+    .LeftBar{
+        width: 120px;
+    }
+
+    .LB{
+       margin-left: 28px;
+        width:100px ;
+    }
+
+    .Logo{
+        font-size: 25px;
+        margin-left: 13px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .HH{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Home{
+        margin-left: 10px;
+    }
+
+    .H{
+        display: none;
+    }
+
+    .EE{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Exp{
+        margin-left: 10px;
+    }
+
+    .Ex{
+        display: none;
+    }
+
+    .NN{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Noti{
+        margin-left: 12px;
+    }  
+
+    .N{
+        display: none;
+    }
+
+    .MM{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Messages{
+        margin-left: 10px;
+    }  
+
+    .Mass{
+        display: none;
+    }
+
+    .BB{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Bookmarks{
+        margin-left: 13px;
+    }  
+
+    .Book{
+        display: none;
+    }
+
+    
+    .LL{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Lists{
+        margin-left: 10px;
+    }  
+
+    .List{
+        display: none;
+    }
+
+    .PP{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Profile{
+        margin-left: 12px;
+    }  
+
+    .Prof{
+        display: none; 
+    }
+
+    .mm{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .More{
+        margin-left: 12px;
+    }  
+
+    .more{
+        display: none;
+    }
+
+    .Tweet{
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: rgb(54, 158, 255);
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+        width: 70px;
+        height: 40px;
+        border-radius: 60px;
+        transition: 0.2s;
+    }
+
+    .Info{
+        margin-top: 180px;
+        margin-left: 5px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .Name{
+        display: none;
+    }
+
+    .image{
+        object-fit: cover;
+        display: block;
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-top: 9px;
+    }   
+
+    .Content{
+        left: 120px;
+    }
+
+    .RightBar{
+        width: 313px;
+        left: 720px;
+    }
+
+    .Search{
+        width: 260px;
+    }
+
+    .another{
+        width: 280px;
+        margin-left: 8px;
+    }
+
+    .IM{
+        width: 97px;
+        height: 80px;
+    }
+
+    .PIC{
+        width: 300px;
+        margin-left: 8px;
+    }
+    
+    .TQ{  
+        margin-left: 30px;
+    }
+    
+    .Tre{
+        width: 300px;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1300px){
+    .LeftBar{
+        width: 120px;
+    }
+
+    .LB{
+       margin-left: 28px;
+        width:100px ;
+    }
+
+    .Logo{
+        font-size: 25px;
+        margin-left: 13px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .HH{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Home{
+        margin-left: 10px;
+    }
+
+    .H{
+        display: none;
+    }
+
+    .EE{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Exp{
+        margin-left: 10px;
+    }
+
+    .Ex{
+        display: none;
+    }
+
+    .NN{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Noti{
+        margin-left: 12px;
+    }  
+
+    .N{
+        display: none;
+    }
+
+    .MM{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Messages{
+        margin-left: 10px;
+    }  
+
+    .Mass{
+        display: none;
+    }
+
+    .BB{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Bookmarks{
+        margin-left: 13px;
+    }  
+
+    .Book{
+        display: none;
+    }
+
+    
+    .LL{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Lists{
+        margin-left: 10px;
+    }  
+
+    .List{
+        display: none;
+    }
+
+    .PP{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .Profile{
+        margin-left: 12px;
+    }  
+
+    .Prof{
+        display: none; 
+    }
+
+    .mm{
+        margin-left: 13px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .More{
+        margin-left: 12px;
+    }  
+
+    .more{
+        display: none;
+    }
+
+    .Tweet{
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: rgb(54, 158, 255);
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+        width: 70px;
+        height: 40px;
+        border-radius: 60px;
+        transition: 0.2s;
+    }
+
+    .Info{
+        margin-top: 180px;
+        margin-left: 5px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .Name{
+        display: none;
+    }
+
+    .image{
+        object-fit: cover;
+        display: block;
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-top: 9px;
+    }   
+
+    .Content{
+        left: 120px;
+    }
+
+    .RightBar{
+        position: fixed;
+        left: 720px;
+        width: 370px;
+    }
+
+    .Search{
+        width: 300px;
+    }
+
+    .another{
+        width: 300px;
+        margin-left: 8px;
+    }
+
+    .IM{
+        width: 116px;
+        height: 100px;
+    }
+
+    .PIC{
+        width: 355px;
+        margin-left: 8px;
+    }
+    
+    .TQ{  
+        margin-left: 80px;
+    }
+
+    .Tre{
+        width: 300px;
+    }
+}
+
+@media (min-width:1300px) and (max-width:1510px){
+    .LeftBar{
+        width: 280px;
+    }
+
+    .LB{
+       margin-left: 60px;
+        width:230px ;
+    }
+
+    .Logo{
+        font-size: 28px;
+        margin-left: 13px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .HH{
+        margin-left: 13px;
+        font-size: 20px;
+        width: 110px;
+        height: 40px;
+    }
+
+    .Home{
+        margin-left: 10px;
+    }
+
+    .EE{
+        margin-left: 13px;
+        font-size: 20px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .Exp{
+        margin-left: 10px;
+    }
+
+    .NN{
+        margin-left: 13px;
+        font-size: 20px;
+        width: 160px;
+        height: 40px;
+    }
+
+    .Noti{
+        margin-left: 12px;
+    }  
+
+    .MM{
+        margin-left: 13px;
+        font-size: 20px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .Messages{
+        margin-left: 10px;
+    }  
+
+    .BB{
+        margin-left: 13px;
+        font-size: 20px;
+        width: 145px;
+        height: 40px;
+    }
+
+    .Bookmarks{
+        margin-left: 13px;
+    }  
+    
+    .LL{
+        margin-left: 13px;
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .Lists{
+        margin-left: 10px;
+    }  
+
+    .PP{
+        margin-left: 13px;
+        font-size: 20px;
+        width: 115px;
+        height: 40px;
+    }
+
+    .Profile{
+        margin-left: 12px;
+    }  
+
+    .mm{
+        margin-left: 13px;
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .More{
+        margin-left: 12px;
+    }  
+
+    .Tweet{
+        width: 170px;
+        height: 40px;
+        border-radius: 60px;
+        transition: 0.2s;
+    }
+
+  
+    .Info{
+        margin-top: 180px;
+        width: 220px;
+    }
+
+    .Name{
+        margin-left: 3px;
+        width: 150px;
+    }
+
+    .Content{
+        left: 300px;
+    }
+
+    .RightBar{
+        position: fixed;
+        left: 900px;
+        width: 370px;
+    }
+
+    .Search{
+        width: 300px;
+    }
+
+    .another{
+        width: 300px;
+        margin-left: 8px;
+    }
+
+    .IM{
+        width: 116px;
+        height: 100px;
+    }
+
+    .PIC{
+        width: 355px;
+        margin-left: 8px;
+    }
+    
+    .TQ{  
+       margin-left: 80px;
+    }
+
+    .Tre{
+        width: 300px;
+    }
+}

@@ -1,0 +1,410 @@
+.Content{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 525px;
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(240, 240, 240);
+    z-index: 100;
+}
+
+.Official{
+   display: inline-block;
+   height: 50px;
+   display: flex;
+   left: 0;
+   right: 0;
+}
+
+.header{
+    width: 600px;
+    display: inline-block;
+}
+
+.B{
+    display: inline-block;
+    height: 50px;
+    margin-right: 5px;
+    position: fixed;
+    top: 0;
+}
+
+.Back{
+    width: 40px;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    border-radius: 90px;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+.Back:hover{
+    background-color: rgb(235, 235, 235);
+}
+.Back:active{
+    background-color: rgb(218, 218, 218);    
+}
+
+.Pr{
+    margin-left: 68px;
+    display: inline-block;
+    height: 50px;
+}
+
+.C{
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.Follow{
+    margin-top: 3px;
+    display: block;
+    color: gray;
+    font-size: 13px;
+}
+
+.CoverP{
+top: 50px;
+}
+
+.I{
+    cursor: pointer;
+    width: 600px;
+    z-index: 100;
+}
+
+.Pic{
+    width: 130px;
+    margin-left: 20px;
+    border-radius: 90px;
+    position: fixed;
+    top: 185px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.sit{
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.Dd{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+    border-radius: 90px;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(193, 193, 193);
+    cursor: pointer;
+    transition: background-color 0.1s; 
+}
+
+.Dd:hover{
+    background-color: rgb(235, 235, 235);
+}
+.Dd:active{
+    background-color: rgb(218, 218, 218);    
+}
+
+.Not{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+    border-radius: 90px;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(193, 193, 193);
+    cursor: pointer;
+    transition: background-color 0.1s; 
+}
+
+.Not:hover{
+    background-color: rgb(235, 235, 235);
+}
+.Not:active{
+    background-color: rgb(218, 218, 218);    
+}
+
+.F{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    width: 100px;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+    border-radius: 90px;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(193, 193, 193);
+    cursor: pointer;
+    position: relative;
+}
+
+.UnF{
+    font-weight: 500;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 90px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(255, 215, 215);
+    border-color: rgb(255, 166, 166);
+    color: rgb(255, 42, 42);
+    position: absolute;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.F:hover .UnF{
+    opacity: 1;
+}
+
+.UnF:active{
+    background-color: rgb(255, 190, 190);
+}
+
+.Row{
+    position: fixed;
+    top: 350px;
+    margin-left: 15px;
+}
+
+.NameP{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.Tag{
+    margin-top: 5px;
+    color: rgb(141, 141, 141);
+}
+
+.Oo{
+    margin-top: 5px;
+    color: rgb(141, 141, 141);
+}
+
+.Bio{
+    position: relative;
+    top: 140px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.S1{
+    cursor: pointer;
+    color: rgb(54, 158, 255);
+}
+
+.S1:hover{
+    text-decoration: underline;
+}
+
+.S2{
+    cursor: pointer;
+    color: rgb(54, 158, 255);
+}
+
+.S2:hover{
+    text-decoration: underline;
+}
+
+.S3{
+    cursor: pointer;
+    color: rgb(54, 158, 255);
+}
+
+.S3:hover{
+    text-decoration: underline;
+}
+
+.added{
+    font-size: 17px;
+    color: rgb(117, 117, 117);
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    margin-left: 15px;
+}
+
+.site{
+    margin-left: 12px;
+}
+
+.Nsite{
+    cursor: pointer;
+    color: rgb(54, 158, 255);
+    margin-left: 5px;
+}
+
+.Nsite:hover{
+    text-decoration: underline;
+}
+
+.Joined{
+    margin-left: 12px;
+}
+
+.foloo{
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 180px;
+}
+
+.num{
+    margin-left: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.wo{
+    margin-left: 5px;
+}
+
+.postes{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 220px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+    border-style: solid;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-width: 1px;
+    border-color: rgb(240, 240, 240);
+}
+
+.Twee{
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+}
+
+.Twee:hover{
+    background-color:  rgb(225, 225, 225);
+    color: black;
+}
+
+.replies{
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.replies:hover{
+    background-color:  rgb(225, 225, 225);
+    color: black;
+}
+
+.Media{
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Media:hover{
+    background-color:  rgb(225, 225, 225);
+    color: black;
+}
+
+.Likes{
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Likes:hover{
+    background-color:  rgb(225, 225, 225);
+    color: black;
+}
+
+.Nointernet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 240px;
+    color: rgb(141, 141, 141);
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.retry{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 265px;
+    left: 250px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(54, 158, 255);
+    font-weight: 400;
+}
+
+.retry:hover{
+    background-color: rgb(0, 111, 215);
+}
+
+.retry:active{
+    background-color: rgb(0, 88, 171);
+}
