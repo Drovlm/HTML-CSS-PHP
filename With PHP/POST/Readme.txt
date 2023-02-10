@@ -1,0 +1,1 @@
+We using "POST" to hide the elements from the url, like passowrd
