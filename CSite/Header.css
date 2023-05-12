@@ -1,0 +1,550 @@
+.header{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.title{
+    font-family: Cursive;
+    font-style: oblique 40deg;
+    font-stretch:500%;
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.in{
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    height: 820px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 55px;
+    column-gap: 12px;
+    row-gap: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    margin-top: 60px;
+    width: 340px;
+    height: 600px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.About{
+    width: 340px;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    position: absolute;
+    top: 90px;
+}
+
+.A{
+    text-align: center;
+}
+
+.pic:hover .About{
+    display: none;
+}
+
+.pic{
+    cursor:pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.pic:hover{
+    margin-top: 20px;
+}
+
+#Rim{
+    transition: 0.3s;
+}
+
+.W{
+    height: 460px;
+    font-size: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.6);
+    top: 60px;
+    padding-top: 140px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.pic:hover .W{
+    opacity: 1;
+}
+
+.W:hover .image{
+    margin-top: 20px;
+}
+
+.rim{
+    width: 100%;
+    display: block;
+    height: 900px;
+    color: rgb(0, 0, 0);
+}
+
+.I{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 130px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Int{
+    display: block;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+
+.Imm{
+    width: 160px;
+    height: 235px;
+    position: absolute;
+    cursor: pointer;
+    top: 1080px;
+    right: 310px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.Im:hover{
+    transform: scale(1.1);
+}
+
+.Imm:hover ~.Ima1{
+    transform: scale(1.0);
+    transition: 1.0s;
+    opacity: 1;
+}
+
+.Imm:hover ~.Ima{
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.Imm:hover ~.WW1{
+    transition: 1.8s;
+    opacity: 1;
+}
+
+.Im{
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 140px;
+    margin-top: 18px;
+    margin-left: 10px; 
+}
+
+.Imm1{
+    width: 160px;
+    height: 235px;
+    position: absolute;
+    cursor: pointer;
+    top: 1080px;
+    right: 130px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.Im1{
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 135px;
+    margin-top: 9px;
+    margin-left: 10px; 
+}
+
+.Im1:hover{
+    transform: scale(1.1);
+}
+
+.Imm1:hover ~.Ima2{
+    transform: scale(1.0);
+    transition: 1.0s;
+    opacity: 1;
+}
+
+.Imm1:hover ~.Ima{
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.Imm1:hover ~.WW2{
+    transition: 1.8s;
+    opacity: 1;
+}
+
+.Imm2{
+    width: 160px;
+    height: 235px;
+    margin-top: 50px;
+    position: absolute;
+    cursor: pointer;
+    top: 1280px;
+    right: 310px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.Im2:hover{
+    transform: scale(1.1);
+}
+
+
+.Imm2:hover ~.Ima3{
+    transform: scale(1.0);
+    transition: 1.0s;
+    opacity: 1;
+}
+
+.Imm2:hover ~.Ima{
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.Imm2:hover ~.WW3{
+    transition: 1.8s;
+    opacity: 1;
+}
+
+.Im2{
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 140px;
+    margin-top: 15px;
+    margin-left: 10px; 
+}
+
+.Imm3{
+    margin-top: 50px;
+    width: 160px;
+    height: 235px;
+    position: absolute;
+    cursor: pointer;
+    top: 1280px;    
+    right: 130px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.Im3{
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 140px;
+    margin-top: 18px;
+    margin-left: 10px; 
+}
+
+.Im3:hover{
+    transform: scale(1.1);
+}
+
+.Imm3:hover ~.Ima4{
+    transform: scale(1.0);
+    transition: 1.0s;
+    opacity: 1;
+}
+
+.Imm3:hover ~.Ima{
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.Imm3:hover ~.WW4{
+    transition: 1.8s;
+    opacity: 1;
+}
+
+.AA{
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+
+.Ima{
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    width: 680px;
+    height: 400px;
+    object-fit: cover;
+    object-position: left;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.Ima1{
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    width: 680px;
+    height: 400px;
+    object-fit: cover;
+    object-position: left;
+    opacity: 0;
+}
+
+.WW1{
+    width: 680px;
+    height: 300px;
+    font-size: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.5);
+    padding-top: 100px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    opacity: 0;
+}
+
+.Ima2{
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    width: 680px;
+    height: 400px;
+    object-fit: cover;
+    object-position: left;
+    opacity: 0;
+}
+
+.WW2{
+    width: 680px;
+    height: 300px;
+    font-size: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.5);
+    padding-top: 100px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    opacity: 0;
+}
+
+.Ima3{
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    width: 680px;
+    height: 400px;
+    object-fit: cover;
+    object-position: left;
+    opacity: 0;
+}
+
+.WW3{
+    width: 680px;
+    height: 330px;
+    font-size: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.5);
+    padding-top: 70px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    opacity: 0;
+}
+
+.Ima4{
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    width: 680px;
+    height: 400px;
+    object-fit: cover;
+    object-position: left;
+    opacity: 0;
+}
+
+.WW4{
+    width: 680px;
+    height: 300px;
+    font-size: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.5);
+    padding-top: 100px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 130px;
+    top: 1140px;
+    opacity: 0;
+}
+
+.Li{
+    margin-top: 30px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    width: 100%;
+    height: 120px;
+    font-stretch:500%;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 700;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Li1{
+    margin-top: 15px;
+    font-family: Goudy Old Style;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+.Li1:hover{
+    text-shadow:   0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 32px rgb(255, 255, 255),
+    0 0 52px rgb(255, 255, 255),
+    0 0 72px rgb(255, 255, 255),
+    0 0 22px rgb(255, 255, 255),
+    0 0 51px rgb(255, 255, 255);
+}
+
+.Ligh{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.St{
+    display: inline-block;
+    width: 50%;
+    height: 90%;
+}
+
+.St1{
+    width: 100%;
+    height: 80%;
+}
+
+.La{
+    display: inline-block;
+    width: 50%;
+    height: 90%;
+}
+
+.La1{
+    width: 100%;
+    height: 80%;
+}
+
+.StT{
+    width: 670px;
+    height: 310px;
+    font-size: 32px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 190px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.StT:hover{
+    text-shadow:   0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 32px rgb(255, 255, 255),
+    0 0 52px rgb(246, 255, 125),
+    0 0 72px rgb(246, 255, 125),
+    0 0 22px rgb(255, 255, 255),
+    0 0 51px rgb(255, 255, 255);
+}
+
+.LT{
+    width: 650px;
+    height: 310px;
+    font-size: 32px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 190px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.LT:hover{
+    text-shadow:   0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 32px rgb(255, 255, 255),
+    0 0 52px rgb(164, 235, 255),
+    0 0 72px rgb(164, 235, 255),
+    0 0 22px rgb(255, 255, 255),
+    0 0 51px rgb(255, 255, 255);
+}
+
+.Exh{
+    display: flex;
+    text-align: center;
+    position: absolute; 
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.ExhI{
+    width: 100%;
+    height: 90%;
+}
+
+.ExhT{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ExhT1{
+    padding-top: 220px;
+    padding-left: 70px;
+    padding-right: 70px;
+}

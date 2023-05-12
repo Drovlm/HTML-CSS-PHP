@@ -1,0 +1,13 @@
+p{
+    font-family: Copperplate;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    margin: 0;
+    background-color: rgb(194, 194, 194);
+}
+
+*{
+    scroll-behavior: smooth;
+}
